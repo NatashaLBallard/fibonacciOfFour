@@ -24,11 +24,11 @@ public class MainController {
         int num_3 = Integer.parseInt(number) - 3;
 
 
-        String fibNums = "";
+        int fibNum = Integer.parseInt(number) + num_1 + num_2 + num_3;
 
 
 
-        return number + " "+  Integer.valueOf(num_1) + " "+  Integer.valueOf(num_2) + " "+   Integer.valueOf(num_3);
+        return number + " " + fibNum;
 
     }
 
